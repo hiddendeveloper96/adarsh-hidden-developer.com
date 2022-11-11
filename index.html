@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Developer | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        *{
+            box-sizing: border-box;
+            list-style: none;
+        
+        }
+        
+        body{
+            margin: 0px;
+        }
+
+        FOOter , nav{
+            display: flex;
+            background-color: #333;
+            /*grey color*/
+        }
+
+        FOOter ,nav a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+           
+        }
+
+        section{
+            text-align: center;
+            padding-top: 40px;
+            height: 100vh;
+        }
+
+        section:nth-child(even){
+            background-color: #ececec;
+        }
+
+        iframe{
+            padding: 0px 5px ;
+        }
+
+        img{
+            padding: 0px 20px ;
+        }
+
+        h2{
+            padding-bottom: 40px;
+        }
+
+        FOOter{
+            background-color: #333;
+            /*grey color*/
+            overflow: hidden;
+        }
+
+        FOOter a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+        }
+
+        .copyright{
+            float: right;
+        }
+
+        h5{
+            margin: 0px 130px;
+        }
+        .banner{
+            background-image: url(./assets/logo/hidden\ developer.gif);
+            height: 20vw;
+            min-height: 100px;
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size: 100%;
+            
+        }
+        .flex-align-right{
+            margin-left: auto;
+        }
+        .menu-btn:hover{
+            background-color: white;
+            color: black;
+        }
+        section h2 span{
+            background: linear-gradient(to right, #f5d837, #bbb812);
+            padding: 10px 55px;
+            border-radius: 20px;
+            color: white;
+        }
+        .carousel-cell {
+         width: 66%;
+         margin-right: 10px;
+         border-radius: 5px;
+        }
+        .carousel-cell video{
+            max-width: 100%;
+        }
+
+        .img-responsive{
+            max-width: 75vh;
+            height: 75vh;
+        }
+        .profile-img{
+            border-radius: 50%;
+        }
+
+        .profile_name{
+            letter-spacing: 4px;
+            word-spacing: 10px;
+            text-transform:uppercase;
+            font-size: 2em;
+        }
+
+        .sm-handle a{
+            background-color:rgba(117, 112, 112, 0.25);   
+            padding: 10px 15px;
+            border-radius: 30px;
+            margin: 5px 10px;
+            text-decoration: none;
+            font-size: 1.25em;
+        }
+
+        .sm-handle a:hover{
+            margin: 5px;
+        }
+        .insta-handle{
+            color: #dd2a7d;
+        }
+        .yt-handle{
+            color: #ff0000;
+        }
+        .linkedin-handle{
+            color:#0e76a8;
+        }
+        .about-content{
+            color: #1c1a3a;
+            font-weight: 900;
+            padding-bottom: 10px 0px 20px 0px;
+        }
+        @media screen and (max-width:700px){
+            FOOter , nav{
+                flex-direction: column;
+                padding: 10px 0px;
+            }
+            .flex-align-right{
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <!--# for empty url present.-->
+    <nav>
+        <a href="#" class="menu-btn">Home</a>
+        <a href="#" class="menu-btn">College Reviews</a>
+        <a href="#" class="menu-btn">Courses</a>
+        <a href="#" class="menu-btn">Studt Material</a>
+        <a href="#" class="menu-btn flex-align-right">Login/Signup</a>
+    </nav>
+    <main>
+        <section>
+            <h2> <span>Courses</span></h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell"><video src="./assets/courses/video/0 Reptiles_&_Amphibians_8K_HDR_60FPS_(FUHD)_DolbyVision(1080p).mp4"poster="" controls></video></div>
+             <div class="carousel-cell"><video src="./assets/courses/video/0 Ultra_HD_-_SAMSUNG_4K_Demo__Italian_Food.mp4"poster="" controls></video></div>
+             <div class="carousel-cell"><video src="./assets/courses/video/_World_Premiere__Trailer(1080p).mp4"poster="" controls></video></div>
+             <div class="carousel-cell"><video src="./assets/courses/video/Tere_Sang_Yaara_-_Rustom___Akshay_Kumar___Ileana_D_cruz___Atif_Aslam___Arko___Ro.mp4"poster="" controls></video></div>
+            <div class="carousel-cell"><video src="./assets/courses/video/Ultra_HD_-_LG_4K_Demo__Food_Atelier.mp4"poster="" controls></video></div>
+            <div class="carousel-cell"><video src="./assets/courses/video/Ultra_HD_-_SAMSUNG_4K_Demo__Around_the_World.mp4"poster="" controls></video></div>
+            </div>           
+        </section>
+        <section>
+            <h2> <span>College Reviews</span></h2>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/Jx8mFpgUUyM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/r3HW_P28epk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/w2RuveoYsq8" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/t0On1N1WSO0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/Hyl8wAXwdhA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            <iframe width="33%" height="315" src="https://www.youtube.com/embed/b5yVslgxOMM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+        </section>
+        <section>
+            <h2> <span>Study Material</span></h2>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell" ><a target="_blank" href="./assets/courses/Notes/_Dsp module 1 handwritten (2).pdf"><img class="img-responsive" src="img/Adarsh photo.jpg" alt=""></a></div> 
+            <div class="carousel-cell"><a target="_blank" href="./assets/courses/Notes/DSP assignment 1.pdf"><img class="img-responsive" src="img/Adarsh photo.jpg" alt=""></a></div>
+            <div class="carousel-cell"><a target="_blank" href="./assets/courses/Notes/DSP M1 Ad.pdf"><img class="img-responsive" src="img/Adarsh photo.jpg" alt=""></a></div>
+            <div class="carousel-cell"><a target="_blank" href="./assets/courses/Notes/DSP M2 ADA.pdf"><img class="img-responsive" src="img/Adarsh photo.jpg" alt=""></a></div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                <span> Our Founder</span>
+            </h2>
+            <img class="profile-img" src="./assets/courses/img/Adarsh photo.jpg" alt="This is Adarsh Shinde" width="26%">
+            <h3 class="profile_name">Adarsh Shinde</h3>
+            <!--for spacing btw inst youtube facebook insert = &nbsp;-->
+            <div class="sm-handle">
+            <a href="https://www.instagram.com/96_always_adarsh/"target="_blank"class="insta-handle" rel="noopener noreferrer"><i class="fa fa-instagram insta-handle"></i> Instagram</a>
+            <a href="#"target="_blank"rel="noopener noreferrer" target="_blank" class="yt-handle" ><i class="fa fa-youtube yt-handle"></i> YouTube </a>
+            <a href="#"target="_blank" class="" rel="noopener noreferrer" target="_blank" class="linkedin-handle" ><i class="fa fa-linkedin linkedin-handle"></i> LinkedIn</a>
+        </div>
+        </section>
+        <section>
+            <h5 class="about-content">
+                Seeking an entry-level opportunity with an esteemed Organization where I can utilize my skills and Enhance learning in the field of work. Capable of Mastering new technologies.
+                I believe in passion because “our passion desides the size of our success” it helps for dedicating me to work in organization.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolores placeat ipsam ullam distinctio laborum, magnam non culpa. Perferendis sint neque, a laboriosam cumque eaque vel maiores ipsa aperiam aut.
+                
+            </h5>
+         </section>
+           
+    </main>
+    <FOOter>
+        <a href="#">Faq</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Term Of Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#" class="flex-align-right">&copy;2022 | Hidden Developer</a>
+    </FOOter>
+    <!--javascript-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
